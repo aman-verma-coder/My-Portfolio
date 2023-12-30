@@ -1,10 +1,14 @@
 /*============================================Typing animation=====================================*/
-var typed = new Typed(".typing", {
-    strings: ["", "Web Designer", "Web Developer", "OpenSource Contributor", "Coding Enthusiast"],
-    typespeed: 100,
-    backspeed: 60,
-    loop: true
-})
+// var typed = new Typed(".typing", {
+//     strings: ["", "Web Designer", "Web Developer", "OpenSource Contributor", "Coding Enthusiast"],
+//     typespeed: 100,
+//     backspeed: 60,
+//     loop: true
+// })
+var typed = new Typed('.typing', {
+    strings: ['<span class="violet">Frontend Web Developer</span>', '<span class="violet">Frontend Web Designer</span>', 'aspiring <span class="violet">FullStack Developer</span>'],
+    typeSpeed: 50,
+});
 /*============================================Aside=====================================*/
 const nav = document.querySelector(".nav"),
     navList = nav.querySelectorAll("li"),
